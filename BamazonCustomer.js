@@ -34,17 +34,17 @@ inquirer.prompt(
     [
       {
         name: 'name',
-        message: 'What Is Your Name?'
+        message: 'what is the ID of the product you would like to buy?'
       },
       {
         name: 'position',
-        message: 'What Position Are You Playing?'
-      },
-      {
-        name: 'offense',
-        message: 'What Is Your Offensive Value (In A Number)'
-      },
-      {
-        name: 'defense',
-        message: 'What Is Your defensive Value (In A Number)'
+        message: 'how many units of the product they would like to buy?'
+    //   },
+    //   {
+    //     name: 'offense',
+    //     message: 'What Is Your Offensive Value (In A Number)'
+    //   },
+    //   {
+    //     name: 'defense',
+    //     message: 'What Is Your defensive Value (In A Number)'
       }]);
